@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 # Name: basepage
-# Author: 简
+# Author: keen
 # Time: 2019/8/5
 
 from selenium.webdriver.remote.webdriver import WebDriver
@@ -14,6 +14,7 @@ import datetime
 
 from Common.dir_config import screenshot_dir
 from Common import logger  # 直接执行了logger里的代码。设置日志输出。
+
 
 class BasePage:
 
