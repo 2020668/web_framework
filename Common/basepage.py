@@ -15,6 +15,7 @@ import datetime
 from Common.dir_config import screenshot_dir
 from Common import logger  # 直接执行了logger里的代码。设置日志输出。
 
+
 class BasePage:
 
     def __init__(self, driver: WebDriver):
