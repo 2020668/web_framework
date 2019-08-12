@@ -18,3 +18,4 @@ class IndexPageLocator:
     user_link = (By.XPATH, '//a[@href="/Member/index.html"]')
     # 抢投标按钮
     bid_button = (By.XPATH, '//a[@class="btn btn-special"]')
+
