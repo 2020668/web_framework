@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 # Name: basepage
-# Author: 简
+# Author: keen
 # Time: 2019/8/5
 
 from selenium.webdriver.remote.webdriver import WebDriver
