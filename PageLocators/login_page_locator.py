@@ -1,13 +1,19 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: login_page_locator
-# Author: 简
-# Time: 2019/6/11
+"""
+=================================
+Author: keen
+Created on: 2019/8/12
+E-mail:keen2020@outlook.com
+=================================
+"""
+
 from selenium.webdriver.common.by import By
 
+
 class LoginPageLocator:
+
     # 用户名输入框
-    user_loc = (By.XPATH,'//input[@name="phone"]')
+    user_loc = (By.XPATH, '//input[@name="phone"]')
     # 密码输入框
     passwd_loc = (By.XPATH,'//input[@name="password"]')
     # w登陆按钮
