@@ -1,0 +1,75 @@
+ Fri, 09 Aug 2019 14:42:17  INFO logger.py <module> [ line:24 ] hehehe
+ Fri, 09 Aug 2019 14:42:17  INFO test_invest.py setUp [ line:65 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======
+ Fri, 09 Aug 2019 14:42:22  INFO basepage.py wait_ele_visible [ line:37 ] 等待 18684720553  元素  ('xpath', '//input[@name="phone"]') 可见成功。耗时：0:00:00.037787
+ Fri, 09 Aug 2019 14:42:22  INFO basepage.py get_element [ line:65 ] 查找  18684720553 元素 ('xpath', '//input[@name="phone"]') 成功！
+ Fri, 09 Aug 2019 14:42:22  INFO basepage.py input_text [ line:94 ] 在 18684720553 元素 ('xpath', '//input[@name="phone"]') 上输入文本值：登陆页面_输入用户名 成功！
+ Fri, 09 Aug 2019 14:42:22  INFO basepage.py wait_ele_visible [ line:37 ] 等待 python  元素  ('xpath', '//input[@name="password"]') 可见成功。耗时：0:00:00.038763
+ Fri, 09 Aug 2019 14:42:23  INFO basepage.py get_element [ line:65 ] 查找  python 元素 ('xpath', '//input[@name="password"]') 成功！
+ Fri, 09 Aug 2019 14:42:23  INFO basepage.py input_text [ line:94 ] 在 python 元素 ('xpath', '//input[@name="password"]') 上输入文本值：登陆页面_输入密码 成功！
+ Fri, 09 Aug 2019 14:42:23  INFO basepage.py wait_ele_visible [ line:37 ] 等待 登陆页面_点击登陆按钮  元素  ('tag name', 'button') 可见成功。耗时：0:00:00.031383
+ Fri, 09 Aug 2019 14:42:23  INFO basepage.py get_element [ line:65 ] 查找  登陆页面_点击登陆按钮 元素 ('tag name', 'button') 成功！
+ Fri, 09 Aug 2019 14:42:23  INFO basepage.py click_element [ line:77 ] 点击  登陆页面_点击登陆按钮 元素 ('tag name', 'button') 成功！
+ Fri, 09 Aug 2019 14:42:26  ERROR basepage.py wait_ele_visible [ line:31 ] 等待元素 ('xpath', '//a[@class="btn btn-special"]') 可见 失败！
+Traceback (most recent call last):
+  File "/Users/liyuan/Downloads/PO_V4_BasePage_完全替换版本/Common/basepage.py", line 28, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 415, in _find_element
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=76.0.3809.100)
+
+ Fri, 09 Aug 2019 14:42:26  ERROR basepage.py save_img [ line:150 ] 网页截图失败！
+Traceback (most recent call last):
+  File "/Users/liyuan/Downloads/PO_V4_BasePage_完全替换版本/Common/basepage.py", line 28, in wait_ele_visible
+    WebDriverWait(self.driver,timeout,frequency).until(EC.visibility_of_element_located(loc))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 128, in __call__
+    return _element_if_visible(_find_element(driver, self.locator))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 415, in _find_element
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/support/expected_conditions.py", line 411, in _find_element
+    return driver.find_element(*by)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=76.0.3809.100)
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liyuan/Downloads/PO_V4_BasePage_完全替换版本/Common/basepage.py", line 148, in save_img
+    self.driver.save_screenshot(img_path)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=76.0.3809.100)
+
+ Fri, 09 Aug 2019 14:42:27  INFO test_invest.py setUp [ line:65 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======

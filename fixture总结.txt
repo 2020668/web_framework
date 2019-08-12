@@ -1,0 +1,40 @@
+1、fixture  pytest框架自己的前置后置
+1） 定义fixture  --  function\class\module\session
+    conftest.py  文件。  固定的名字。  === 支持层级创建和使用。
+
+    定义一个函数，在函数上面加上：@pytest.fixture(scope="夹心饼干到底夹什么")  # 默认夹的是 测试用例。
+    @pytest.fixture  # 夹的测试用例
+    def myFix():   # 函数名称就是fixture对外的使用名称。
+        # 前置代码
+        yield [返回值]
+        # 后置代码
+
+2） 在测试用例中，使用fixture
+    在测试用例文件当中，不需要引入conftest.py文件。
+    1） 在测试用例/类 前面：@pytest.mark.usefixtures("fixture的函数名称")   # 可以使用多个fixture
+        表示调用对应的前置后置代码。
+        但是不能够决定fixture的夹的是谁。在定义fixture的时候，就已经确定了。
+
+    2）如果，fixture当中有返回值，而测试用例当中，要使用这个返回值的话，那么
+        fixture的函数名称  作为  测试用例的参数。   fixture的函数名称 = 返回值。
+
+
+3）在fixture当中，"继承"使用其它的fixture
+   已有1个fixture,要定义第2个fixture,而第2个fixture,包含了第1个的fixture...
+   可以"继承"
+   @pytest.fixture  # 夹的测试用例
+    def myFix1():   # 函数名称就是fixture对外的使用名称。
+        # 前置代码1
+        yield [返回值1]
+        # 后置代码1
+
+    @pytest.fixture  # 夹的测试用例
+    def myFix2(myFix1):   # 函数名称就是fixture对外的使用名称。
+        # 前置代码2
+        yield [返回值2]
+        # 后置代码2
+
+参数化：
+@pytest.mark.parametrize("data", ld.fail_datas)
+def test_11(data):
+    print(data)
