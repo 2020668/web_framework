@@ -1,8 +1,12 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: Comm_Datas
-# Author: 简
-# Time: 2019/6/11
+"""
+=================================
+Author: keen
+Created on: 2019/8/12
+E-mail:keen2020@outlook.com
+=================================
+
+"""
 
 #全局 - 系统访问地址 - 登陆链接
 _base_url = "http://120.78.128.25:8765/"

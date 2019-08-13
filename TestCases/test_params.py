@@ -1,11 +1,14 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
-@File    : test_params.py
-@Time    : 2019/8/9 21:44
-@Author  : 柠檬班-小简
-@Email   : XXXX@163.com
-@Company: 湖南省零檬信息技术有限公司
+=================================
+Author: keen
+Created on: 2019/8/12
+E-mail:keen2020@outlook.com
+=================================
+
 """
+
+
 import pytest
 
 

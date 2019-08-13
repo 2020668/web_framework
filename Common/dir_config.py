@@ -1,7 +1,12 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#Author: xiaojian
-#Time: 2018/11/28 17:04
+"""
+=================================
+Author: keen
+Created on: 2019/8/12
+E-mail:keen2020@outlook.com
+=================================
+
+"""
 
 import os
 

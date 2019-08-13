@@ -1,8 +1,12 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: main
-# Author: 简
-# Time: 2019/6/18
+"""
+=================================
+Author: keen
+Created on: 2019/8/12
+E-mail:keen2020@outlook.com
+=================================
+
+"""
 
 # 记录一下用例执行过程 - 日志
 # 如果用例失败 - Trackback报错信息 - 失败了截图。

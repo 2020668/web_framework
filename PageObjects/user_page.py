@@ -1,7 +1,12 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#Author: xiaojian
-#Time: 2018/12/25 20:56
+"""
+=================================
+Author: keen
+Created on: 2019/8/12
+E-mail:keen2020@outlook.com
+=================================
+
+"""
 
 from Common.basepage import BasePage
 from PageLocators.userPage_locator import UserPageLocator as loc
