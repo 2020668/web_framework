@@ -33,7 +33,7 @@ s = unittest.TestSuite()
 # 2、使用discover去找到一个目录下的所有测试用例
 #3、使用s
 loader = unittest.TestLoader()
-s.addTests(loader.discover(testcases_dir))
+s.addTests(loader.discover(test_cases_dir))
 # #运行
 # runner = unittest.TextTestRunner()
 # runner.run(s)
