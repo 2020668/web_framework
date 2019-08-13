@@ -18,9 +18,9 @@ from PageObjects.index_page import IndexPage
 from TestDatas import login_datas as ld
 
 
-
 def test_hello():
     assert True
+
 
 @pytest.mark.usefixtures("myMod")  # 调用
 def test_add():
