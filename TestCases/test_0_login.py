@@ -1,8 +1,13 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: test_login
-# Author: 简
-# Time: 2019/6/6
+"""
+=================================
+Author: keen
+Created on: 2019/8/12
+E-mail:keen2020@outlook.com
+=================================
+
+"""
+
 
 
 from selenium import webdriver
@@ -13,9 +18,9 @@ from PageObjects.index_page import IndexPage
 from TestDatas import login_datas as ld
 
 
-
 def test_hello():
     assert True
+
 
 @pytest.mark.usefixtures("myMod")  # 调用
 def test_add():

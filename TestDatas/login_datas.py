@@ -1,8 +1,12 @@
-#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-# Name: login_datas
-# Author: 简
-# Time: 2019/6/11
+"""
+=================================
+Author: keen
+Created on: 2019/8/12
+E-mail:keen2020@outlook.com
+=================================
+
+"""
 
 from TestDatas.Comm_Datas import web_index_url
 
