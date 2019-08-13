@@ -21,7 +21,6 @@ class BasePage:
     def __init__(self, driver: WebDriver):
         self.driver = driver
 
-
     # 等待元素可见
     def wait_ele_visible(self,loc,img_desc,timeout=30,frequency=0.5):
         start = datetime.datetime.now()  # 用datetime模块获取时间
