@@ -14,17 +14,17 @@ import os
 # base_dir = os.path.split(os.path.split(os.path.abspath(__file__))[0])[0]
 base_dir = os.path.dirname(os.path.dirname(__file__))
 
-test_data_dir = os.path.join(base_dir, "TestDatas")
+test_data_dir = os.path.join(base_dir, "datas")
 
-test_cases_dir = os.path.join(base_dir, "TestCases")
+test_cases_dir = os.path.join(base_dir, "testcases")
 
-htmlreport_dir = os.path.join(base_dir, "Outputs/reports")
+htmlreport_dir = os.path.join(base_dir, "outputs/reports")
 
-logs_dir = os.path.join(base_dir, "Outputs/logs")
+logs_dir = os.path.join(base_dir, "outputs/logs")
 
 # config_dir =  os.path.join(base_dir,"Config")
 
-screenshot_dir = os.path.join(base_dir, "Outputs/screenshots")
+screenshot_dir = os.path.join(base_dir, "outputs/screenshots")
 print(screenshot_dir)
 
 

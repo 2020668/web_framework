@@ -49,14 +49,14 @@ E-mail:keen2020@outlook.com
 import unittest
 import logging
 from selenium import webdriver
-from Common import logger
+from common import logger
 import time
 
-from TestDatas import invest_datas as ID
+from datas import invest_datas as ID
 
-from PageObjects.bid_page import BidPage
-from PageObjects.index_page import IndexPage
-from PageObjects.user_page import UserPage
+from page_objects.bid_page import BidPage
+from page_objects.index_page import IndexPage
+from page_objects.user_page import UserPage
 
 
 import pytest

@@ -8,8 +8,8 @@ E-mail:keen2020@outlook.com
 
 """
 
-from Common.basepage import BasePage
-from PageLocators.userPage_locator import UserPageLocator as loc
+from common.basepage import BasePage
+from page_locators.userPage_locator import UserPageLocator as loc
 
 class UserPage(BasePage):
 

@@ -9,8 +9,8 @@ E-mail:keen2020@outlook.com
 """
 
 
-from PageLocators.bidPage_locator import BidPageLocator as loc
-from Common.basepage import BasePage
+from page_locators.bidPage_locator import BidPageLocator as loc
+from common.basepage import BasePage
 
 
 class BidPage(BasePage):

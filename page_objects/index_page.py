@@ -8,8 +8,8 @@ E-mail:keen2020@outlook.com
 
 """
 
-from Common.basepage import BasePage
-from PageLocators.indexPage_locator import IndexPageLocator as loc
+from common.basepage import BasePage
+from page_locators.indexPage_locator import IndexPageLocator as loc
 import time
 
 class IndexPage(BasePage):
@@ -28,4 +28,4 @@ class IndexPage(BasePage):
 
     # 点击投标按钮
     def click_invest_button(self):
-        self.click_element(loc.bid_button,"首页_点击第一个抢投标按钮")
+        self.click_element(loc.bid_button, "首页_点击第一个抢投标按钮")

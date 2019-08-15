@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0377729a-5224-48fc-ac16-508422ebe41c" name="Default Changelist" comment="" />
+    <list default="true" id="0377729a-5224-48fc-ac16-508422ebe41c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/dir_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dir_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-06-20 1746.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-06-20 1746.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 1438.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 1438.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 1442.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 1442.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 1443.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 1443.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 2031.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 2031.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 2041.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 2041.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 2045.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 2045.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 2101.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 2101.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 2105.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 2105.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/logs/Web_Autotest_2019-08-09 2145.log" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/logs/Web_Autotest_2019-08-09 2145.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/screenshots/标页面_投资失败提示框 - 提示信息获取_2019-06-20 17_40_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/screenshots/标页面_投资失败提示框 - 提示信息获取_2019-06-20 17_40_43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Outputs/screenshots/登陆页面_页面中间错误信息_2019-06-18 21_39_40.png" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/screenshots/登陆页面_页面中间错误信息_2019-06-18 21_39_40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/bidPage_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/bidPage_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/indexPage_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/indexPage_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/login_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/login_page_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageLocators/userPage_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/userPage_locator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/Common_Business/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/ModeCC/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/common_business/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/bid_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/bid_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/index_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/index_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PageObjects/user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/user_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/ModeA/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/model_c/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/ModeA/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/model_a/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_0_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_0_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_invest.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_invest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCases/test_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/test_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDatas/Comm_Datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/common_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDatas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcases/model_a/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDatas/invest_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/invest_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestDatas/login_datas.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/login_datas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/说明.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,18 +56,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/API/__init__.py">
+        <entry file="file://$PROJECT_DIR$/api/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Common/basepage.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/basepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1394">
-              <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="322">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
               <folding>
-                <element signature="e#93#150#0" expanded="true" />
+                <element signature="e#165#222#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="153">
+                <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fixture总结.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_objects/index_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -38,6 +111,8 @@
       <list>
         <option value="$PROJECT_DIR$/main_pytest.py" />
         <option value="$PROJECT_DIR$/Common/basepage.py" />
+        <option value="$PROJECT_DIR$/PageObjects/index_page.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -47,7 +122,9 @@
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -60,11 +137,6 @@
               <item name="web_framework" type="b2602c69:ProjectViewProjectNode" />
               <item name="web_framework" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="web_framework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="web_framework" type="462c0819:PsiDirectoryNode" />
-              <item name="Common" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -74,7 +146,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../api_webservice" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -125,25 +197,38 @@
       <option name="project" value="LOCAL" />
       <updated>1565711402581</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 20190813">
+      <created>1565711619086</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565711619086</updated>
+    </task>
+    <task id="LOCAL-00005" summary="version 20190813">
+      <created>1565711630736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565711630736</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19352709" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19352709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33002833" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -157,9 +242,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="version 20190813" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/说明.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_pytest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -167,7 +249,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/logger.py">
+    <entry file="file://$PROJECT_DIR$/common/logger.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
@@ -180,17 +262,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/API/__init__.py">
+    <entry file="file://$PROJECT_DIR$/api/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Common/basepage.py">
+    <entry file="file://$PROJECT_DIR$/common/basepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1394">
-          <caret line="26" column="12" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="322">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
           <folding>
-            <element signature="e#93#150#0" expanded="true" />
+            <element signature="e#165#222#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/index_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="30" column="43" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="153">
+            <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture总结.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
       </provider>
     </entry>
   </component>

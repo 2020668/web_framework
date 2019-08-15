@@ -13,9 +13,9 @@ E-mail:keen2020@outlook.com
 from selenium import webdriver
 import pytest
 
-from PageObjects.login_page import LoginPage
-from PageObjects.index_page import IndexPage
-from TestDatas import login_datas as ld
+from page_objects.login_page import LoginPage
+from page_objects.index_page import IndexPage
+from datas import login_datas as ld
 
 
 def test_hello():

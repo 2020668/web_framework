@@ -10,8 +10,8 @@ E-mail:keen2020@outlook.com
 
 
 
-from PageLocators.login_page_locator import LoginPageLocator as loc
-from Common.basepage import BasePage
+from page_locators.login_page_locator import LoginPageLocator as loc
+from common.basepage import BasePage
 # 一个用例，一次浏览器的打开和结束。
 class LoginPage(BasePage):
 

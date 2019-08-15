@@ -10,10 +10,10 @@ E-mail:keen2020@outlook.com
 
 
 from selenium import webdriver
-from TestDatas import Comm_Datas as cd
+from datas import common_datas as cd
 import pytest
 
-from PageObjects.login_page import LoginPage
+from page_objects.login_page import LoginPage
 # conftest.py  前置后置共享的文件。不需要主动调用
 
 # 定义前置后置  - 明确它的作用范围。 写一个函数(代码)  @pytest.fxiture
