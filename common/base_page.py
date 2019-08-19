@@ -19,7 +19,7 @@ from common.dir_config import screenshot_dir
 from common import logger  # 直接执行了logger里的代码。设置日志输出。
 
 
-class BasePage:
+class BasePage(object):
 
     def __init__(self, driver: WebDriver):
         self.driver = driver
