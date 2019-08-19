@@ -14,7 +14,7 @@ import os
 # base_dir = os.path.split(os.path.split(os.path.abspath(__file__))[0])[0]
 base_dir = os.path.dirname(os.path.dirname(__file__))
 
-test_data_dir = os.path.join(base_dir, "datas")
+test_data_dir = os.path.join(base_dir, "data")
 
 test_cases_dir = os.path.join(base_dir, "testcases")
 

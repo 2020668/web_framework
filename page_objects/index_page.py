@@ -8,12 +8,12 @@ E-mail:keen2020@outlook.com
 
 """
 
-from common.basepage import BasePage
+from common.base_page import BasePage
 from page_locators.indexPage_locator import IndexPageLocator as loc
 import time
 
-class IndexPage(BasePage):
 
+class IndexPage(BasePage):
 
     # 检测昵称是否存在
     def check_nick_name_exists(self):

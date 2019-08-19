@@ -52,7 +52,7 @@ from selenium import webdriver
 from common import logger
 import time
 
-from datas import invest_datas as ID
+from data import invest_datas as ID
 
 from page_objects.bid_page import BidPage
 from page_objects.index_page import IndexPage

@@ -10,7 +10,7 @@ E-mail:keen2020@outlook.com
 
 
 from selenium import webdriver
-from datas import common_datas as cd
+from data import common_datas as cd
 import pytest
 
 from page_objects.login_page import LoginPage

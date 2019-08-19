@@ -8,7 +8,7 @@ E-mail:keen2020@outlook.com
 
 """
 
-from datas.common_datas import web_index_url
+from data.common_datas import web_index_url
 
 # 正常场景
 success_data = {"user":"18684720553","passwd":"python",
