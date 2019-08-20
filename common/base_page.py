@@ -134,6 +134,7 @@ class BasePage(object):
             logging.info("获取 {} 元素 {} 的文本值为:{}".format(img_desc, loc, text))
             return text
 
+    # 保存截图
     def save_img(self, img_description):
         """
         :param img_description: 图片的描述 。格式为 页面名称_功能名
