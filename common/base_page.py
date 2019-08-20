@@ -15,20 +15,20 @@ import logging
 import time
 import os
 import datetime
-from Common.dir_config import screenshot_dir
-from Common import logger  # 直接执行了logger里的代码。设置日志输出。
+from common.dir_config import screenshot_dir
+from common import logger  # 直接执行了logger里的代码。设置日志输出。
 
 
-class BasePage:
+class BasePage(object):
 
     def __init__(self, driver: WebDriver):
         self.driver = driver
 
     # 等待元素可见
-    def wait_ele_visible(self,loc,img_desc,timeout=30,frequency=0.5):
+    def wait_ele_visible(self, loc, img_desc, timeout=30, frequency=0.5):
         start = datetime.datetime.now()  # 用datetime模块获取时间
         try:
-            WebDriverWait(self.driver,timeout,frequency).until(ec.visibility_of_element_located(loc))
+            WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
         except:
             # 日志
             logging.exception("等待元素 {} 可见,失败！".format(loc))

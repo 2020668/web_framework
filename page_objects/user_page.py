@@ -8,13 +8,13 @@ E-mail:keen2020@outlook.com
 
 """
 
-from Common.basepage import BasePage
-from PageLocators.userPage_locator import UserPageLocator as loc
+from common.base_page import BasePage
+from page_locators.userPage_locator import UserPageLocator as loc
+
 
 class UserPage(BasePage):
-
     # 获取用户余额
-    def get_user_leftMoney(self):
+    def get_user_left_money(self):
         # 获取个人可用余额的文本内容
         text = self.get_text(loc.user_leftMoney,"个人页面_获取用户余额")
         # 截取数字部分 - 分隔符为 元

@@ -24,7 +24,7 @@ E-mail:keen2020@outlook.com
 import unittest
 import os
 from HTMLTestRunnerNew import HTMLTestRunner
-from Common.dir_config import *
+from common.dir_config import *
 
 #实例化套件对象
 s = unittest.TestSuite()
