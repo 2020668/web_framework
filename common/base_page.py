@@ -140,7 +140,8 @@ class BasePage(object):
         :param img_description: 图片的描述 。格式为 页面名称_功能名
         :return:
         """
-        now = time.strftime("%Y-%m-%d %H:%M:%S")
+        # 图片名称中的日期格式不能有冒号，否则图片会保存失败
+        now = time.strftime("%Y%m%d%H%M%S")
         # 时间戳 time模块  不要有:
         file_path = "{}_{}.png".format(img_description, now)
         img_path = os.path.join(screenshot_dir, file_path)
