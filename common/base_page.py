@@ -149,6 +149,7 @@ class BasePage(object):
             self.driver.save_screenshot(img_path)
         except:
             logging.exception("网页截图失败！")
+            raise
         else:
             logging.info("截图成功，截图存放在：{}".format(img_path))
 
