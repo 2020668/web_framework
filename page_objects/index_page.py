@@ -21,7 +21,7 @@ class IndexPage(BasePage):
         :return: 存在返回True,不存在返回False
         """
         try:
-            self.wait_ele_visible(loc.user_link,"首页_找用户昵称元素",timeout=10)
+            self.wait_element_visible(loc.user_link, "首页_找用户昵称元素", timeout=10)
             return True
         except:
             return False

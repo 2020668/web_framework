@@ -25,7 +25,7 @@ class BasePage(object):
         self.driver = driver
 
     # 等待元素可见
-    def wait_ele_visible(self, loc, img_desc, timeout=30, frequency=0.5):
+    def wait_element_visible(self, loc, img_desc, timeout=30, frequency=0.5):
         start = datetime.datetime.now()  # 用datetime模块获取时间
         try:
             WebDriverWait(self.driver, timeout, frequency).until(ec.visibility_of_element_located(loc))
@@ -40,7 +40,7 @@ class BasePage(object):
             logging.info("等待 {}  元素  {} 可见,成功。耗时：{}".format(img_desc, loc, end-start))
 
     # 等待元素存在
-    def wait_ele_exists(self, loc, img_desc, timeout=30, frequency=0.5):
+    def wait_element_exists(self, loc, img_desc, timeout=30, frequency=0.5):
         start = datetime.datetime.now()  # 用datetime模块获取时间
         try:
             WebDriverWait(self.driver, timeout, frequency).until(ec.presence_of_element_located(loc))
@@ -55,7 +55,7 @@ class BasePage(object):
             logging.info("等待 {}  元素  {} 存在成功。耗时：{}".format(img_desc, loc, end - start))
 
     # 查找元素
-    def get_element(self, loc, img_desc):
+    def find_element(self, loc, img_desc):
         try:
             ele = self.driver.find_element(*loc)
         except:
@@ -68,11 +68,12 @@ class BasePage(object):
             logging.info("查找  {} 元素 {} 成功！".format(img_desc, loc))
             return ele
 
+    # 点击元素
     def click_element(self, loc, img_desc, timeout=30, frequency=0.5):
         # 先等待可见
-        self.wait_ele_visible(loc, img_desc, timeout, frequency)
+        self.wait_element_visible(loc, img_desc, timeout, frequency)
         # 再查找元素
-        ele = self.get_element(loc, img_desc)
+        ele = self.find_element(loc, img_desc)
         # 操作
         try:
             ele.click()  # 点击操作
@@ -84,11 +85,12 @@ class BasePage(object):
             self.save_img(img_desc)
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
 
+    # 输入文本值
     def input_text(self, loc, value, img_desc, timeout=30, frequency=0.5):
         # 先等待可见
-        self.wait_ele_visible(loc, img_desc, timeout, frequency)
+        self.wait_element_visible(loc, img_desc, timeout, frequency)
         # 再查找元素
-        ele = self.get_element(loc, img_desc)
+        ele = self.find_element(loc, img_desc)
         # 操作
         try:
             ele.send_keys(value)  # 点击操作
@@ -102,8 +104,8 @@ class BasePage(object):
 
     # 获取元素的属性值
     def get_element_attribute(self, loc, attr_name, img_desc, timeout=30, frequency=0.5):
-        self.wait_ele_exists(loc, img_desc, timeout, frequency)  # 等待元素存在
-        ele = self.get_element(loc, img_desc)   # 查找元素
+        self.wait_element_exists(loc, img_desc, timeout, frequency)  # 等待元素存在
+        ele = self.find_element(loc, img_desc)   # 查找元素
         # 获取属性
         try:
             attr_value = ele.get_attribute(attr_name)
@@ -119,8 +121,8 @@ class BasePage(object):
 
     # 获取元素的文本值。
     def get_text(self, loc, img_desc, timeout=30, frequency=0.5):
-        self.wait_ele_exists(loc, img_desc, timeout, frequency)  # 等待元素存在
-        ele = self.get_element(loc, img_desc)   # 查找元素
+        self.wait_element_exists(loc, img_desc, timeout, frequency)  # 等待元素存在
+        ele = self.find_element(loc, img_desc)   # 查找元素
         # 获取属性
         try:
             text = ele.text
@@ -153,6 +155,7 @@ class BasePage(object):
         else:
             logging.info("截图成功，截图存放在：{}".format(img_path))
 
+    # 切换iframe
     def switch_iframe(self, refrence, img_desc):
         """
         :param refrence: 识别iframe。可以是iframe的下标、name属性、WebElement对象、元组形式的定位表达。

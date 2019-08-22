@@ -16,7 +16,7 @@ from common.base_page import BasePage
 class BidPage(BasePage):
 
     # 投资
-    def invest(self,money):
+    def invest(self, money):
         # 在输入框当中，输入金额
         self.input_text(Loc.money_input, money, "标页面_金额输入框")
         self.click_element(Loc.invest_button, "标页面_提交投资操作")
@@ -38,8 +38,3 @@ class BidPage(BasePage):
     # 获取提示信息 - 投标按钮上的
     def get_error_msg_from_invest_button(self):
         pass
-
-
-
-
-
