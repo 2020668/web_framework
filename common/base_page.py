@@ -55,7 +55,7 @@ class BasePage(object):
             logging.info("等待 {}  元素  {} 存在成功。耗时：{}".format(img_desc, loc, end - start))
 
     # 查找元素
-    def find_element(self, loc, img_desc):
+    def search_element(self, loc, img_desc):
         try:
             ele = self.driver.find_element(*loc)
         except:
@@ -73,7 +73,7 @@ class BasePage(object):
         # 先等待可见
         self.wait_element_visible(loc, img_desc, timeout, frequency)
         # 再查找元素
-        ele = self.find_element(loc, img_desc)
+        ele = self.search_element(loc, img_desc)
         # 操作
         try:
             ele.click()  # 点击操作
@@ -90,7 +90,7 @@ class BasePage(object):
         # 先等待可见
         self.wait_element_visible(loc, img_desc, timeout, frequency)
         # 再查找元素
-        ele = self.find_element(loc, img_desc)
+        ele = self.search_element(loc, img_desc)
         # 操作
         try:
             ele.send_keys(value)  # 点击操作
@@ -105,7 +105,7 @@ class BasePage(object):
     # 获取元素的属性值
     def get_element_attribute(self, loc, attr_name, img_desc, timeout=30, frequency=0.5):
         self.wait_element_exists(loc, img_desc, timeout, frequency)  # 等待元素存在
-        ele = self.find_element(loc, img_desc)   # 查找元素
+        ele = self.search_element(loc, img_desc)   # 查找元素
         # 获取属性
         try:
             attr_value = ele.get_attribute(attr_name)
@@ -122,7 +122,7 @@ class BasePage(object):
     # 获取元素的文本值。
     def get_text(self, loc, img_desc, timeout=30, frequency=0.5):
         self.wait_element_exists(loc, img_desc, timeout, frequency)  # 等待元素存在
-        ele = self.find_element(loc, img_desc)   # 查找元素
+        ele = self.search_element(loc, img_desc)   # 查找元素
         # 获取属性
         try:
             text = ele.text
