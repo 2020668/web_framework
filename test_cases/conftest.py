@@ -18,6 +18,7 @@ from page_objects.login_page import LoginPage
 
 # 定义前置后置  - 明确它的作用范围。 写一个函数(代码)  @pytest.fxiture
 
+
 @pytest.fixture   # 声明它之下的函数是一个 pytest的  前置后置 - 函数级别的
 def init_driver():
     # 前置
@@ -26,6 +27,7 @@ def init_driver():
     yield driver      # 隔开前置后置。2、返回值
     # 后置
     driver.quit()
+
 
 @pytest.fixture(scope="class")
 def myFix():
@@ -44,6 +46,7 @@ def login_web(init_driver):  # 调用并且也代表返回值
     # 前置
     LoginPage(init_driver).login(cd.user, cd.passwd)
     yield init_driver      # 隔开前置后置。2、返回值
+
 
 """  fixture的执行顺序   login_web  包含了 init_dirver 的前置后置
 init_driver 前置

@@ -34,10 +34,10 @@ class BasePage(object):
             logging.exception("等待元素 {} 可见,失败！".format(loc))
             # 截图
             self.save_img(img_desc)
-            raise   # 抛出异常，让用例识别到异常将用例状态为失败。
+            raise  # 抛出异常，让用例识别到异常将用例状态为失败。
         else:
             end = datetime.datetime.now()  # 用datetime模块获取当前时间
-            logging.info("等待 {}  元素  {} 可见,成功。耗时：{}".format(img_desc, loc, end-start))
+            logging.info("等待 {}  元素  {} 可见,成功。耗时：{}".format(img_desc, loc, end - start))
 
     # 等待元素存在
     def wait_element_exists(self, loc, img_desc, timeout=30, frequency=0.5):
@@ -105,7 +105,7 @@ class BasePage(object):
     # 获取元素的属性值
     def get_element_attribute(self, loc, attr_name, img_desc, timeout=30, frequency=0.5):
         self.wait_element_exists(loc, img_desc, timeout, frequency)  # 等待元素存在
-        ele = self.search_element(loc, img_desc)   # 查找元素
+        ele = self.search_element(loc, img_desc)  # 查找元素
         # 获取属性
         try:
             attr_value = ele.get_attribute(attr_name)
@@ -122,7 +122,7 @@ class BasePage(object):
     # 获取元素的文本值。
     def get_text(self, loc, img_desc, timeout=30, frequency=0.5):
         self.wait_element_exists(loc, img_desc, timeout, frequency)  # 等待元素存在
-        ele = self.search_element(loc, img_desc)   # 查找元素
+        ele = self.search_element(loc, img_desc)  # 查找元素
         # 获取属性
         try:
             text = ele.text

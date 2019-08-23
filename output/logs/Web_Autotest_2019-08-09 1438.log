@@ -1,6 +1,0 @@
- Fri, 09 Aug 2019 14:38:37  INFO logger.py <module> [ line:24 ] hehehe
- Fri, 09 Aug 2019 14:38:37  INFO test_invest.py setUp [ line:65 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======
- Fri, 09 Aug 2019 14:38:41  INFO test_invest.py setUp [ line:65 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======
- Fri, 09 Aug 2019 14:38:44  INFO test_invest.py setUp [ line:65 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======
- Fri, 09 Aug 2019 14:38:46  INFO test_invest.py setUp [ line:65 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======
- Fri, 09 Aug 2019 14:38:49  INFO test_invest.py setUp [ line:65 ] =====用例类前置：初始化浏览器会话，登陆前程贷系统=======

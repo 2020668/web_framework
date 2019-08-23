@@ -21,7 +21,8 @@ handler_1 = logging.StreamHandler()
 
 curTime = time.strftime("%Y-%m-%d %H%M", time.localtime())
 
-handler_2 = RotatingFileHandler(dir_config.logs_dir+"/Web_Autotest_{0}.log".format(curTime),backupCount=20,encoding='utf-8')
+handler_2 = RotatingFileHandler(dir_config.logs_dir + "/Web_Autotest_{0}.log".format(curTime), backupCount=20,
+                                encoding='utf-8')
 
 # 设置rootlogger 的输出内容形式，输出渠道
 logging.basicConfig(format=fmt, datefmt=date_fmt, level=logging.INFO, handlers=[handler_1, handler_2])

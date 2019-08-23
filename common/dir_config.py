@@ -27,9 +27,5 @@ logs_dir = os.path.join(base_dir, "outputs/logs")
 screenshot_dir = os.path.join(base_dir, "outputs/screenshots")
 print(screenshot_dir)
 
-
 if __name__ == '__main__':
     print(base_dir)
-
-
-

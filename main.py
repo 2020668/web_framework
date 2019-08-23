@@ -23,7 +23,6 @@ E-mail:keen2020@outlook.com
 # 提供测试报告
 import unittest
 import os
-from HTMLTestRunnerNew import HTMLTestRunner
 from common.dir_config import *
 
 #实例化套件对象
