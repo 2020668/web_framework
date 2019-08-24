@@ -8,7 +8,6 @@ E-mail:keen2020@outlook.com
 
 """
 
-
 """
 用例1：正常投资，投资金额：1000
 异常用例:
@@ -58,8 +57,8 @@ from page_objects.bid_page import BidPage
 from page_objects.index_page import IndexPage
 from page_objects.user_page import UserPage
 
-
 import pytest
+
 
 @pytest.fixture
 def init(login_web):  # 需要人家的返回值，也需要人家的前置后置。直接把fixture的名字作为参数传递。
@@ -67,8 +66,9 @@ def init(login_web):  # 需要人家的返回值，也需要人家的前置后�
     logging.info("=====用例类前置：初始化浏览器会话，登陆前程贷系统=======")
     IndexPage(login_web).click_invest_button()
     bid_page = BidPage(login_web)
-    yield (login_web,bid_page)
+    yield (login_web, bid_page)
     logging.info("=====每一个用例后置：关闭浏览器会话,清理环境=======")
+
 
 """  fixture的执行顺序   login_web  包含了 init_dirver 的前置后置
 init_driver  前置
@@ -79,10 +79,11 @@ login_web  后置
 init_driver  后置
 """
 
+
 @pytest.mark.usefixtures("init")
 class TestInvest:
 
-    def test_invest_1_success(self,init):
+    def test_invest_1_success(self, init):
         logging.info("*********投资用例：正常场景-投资成功*********")
         # 标页面 - 获取投资前的个人余额
         userMoney_beforeInvest = init[1].get_user_money()
@@ -114,9 +115,6 @@ class TestInvest:
     #     # 断言
     #     assert errorMsg == data["check"]
     #     assert userMoney_afterInvest == userMoney_beforeInvest
-
-
-
 
     # def test_invest_success(self):
     #     # 2000 步骤
