@@ -23,6 +23,7 @@ from page_objects.login_page import LoginPage
 def init_driver():
     # 前置
     driver = webdriver.Chrome()
+    driver.maximize_window()
     driver.get(cd.web_login_url)
     yield driver      # 隔开前置后置。2、返回值
     # 后置
@@ -44,7 +45,7 @@ def myFix():
 @pytest.fixture   # 声明它之下的函数是一个 pytest的  前置后置 - 函数级别的
 def login_web(init_driver):  # 调用并且也代表返回值
     # 前置
-    LoginPage(init_driver).login(cd.user, cd.passwd)
+    LoginPage(init_driver).login(cd.user, cd.pwd)
     yield init_driver      # 隔开前置后置。2、返回值
 
 

@@ -16,7 +16,7 @@ import time
 import os
 import datetime
 from common.dir_config import screenshot_dir
-from common import logger  # 直接执行了logger里的代码。设置日志输出。
+from common import logger
 
 
 class BasePage(object):

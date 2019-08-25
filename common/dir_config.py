@@ -16,7 +16,7 @@ base_dir = os.path.dirname(os.path.dirname(__file__))
 
 test_data_dir = os.path.join(base_dir, "data")
 
-test_cases_dir = os.path.join(base_dir, "testcases")
+test_cases_dir = os.path.join(base_dir, "test_cases")
 
 htmlreport_dir = os.path.join(base_dir, "outputs/reports")
 
