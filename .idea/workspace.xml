@@ -2,46 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="333d5df9-7361-4c2f-b6ae-1f99a47e5e8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/common_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/login_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/open_account_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_locators/index_page_locator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_locators/open_account_page_locator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_objects/open_account_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/test_login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/test_open_account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/web_framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/web_framework.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0054.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0101.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0102.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0103.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0105.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0117.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0120.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0121.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0123.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0126.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0130.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0136.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0138.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0140.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0141.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0142.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0144.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0145.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0147.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0210.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0213.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0221.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0222.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0236.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0243.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0246.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0249.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/baidu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/js_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/mac_qq_upload.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/scroll.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/upload_operation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/base_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/dir_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dir_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/common_datas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/invest_datas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/login_datas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/screenshots/标页面_投资失败提示框 - 提示信息获取_2019-06-20 17_40_43.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/imgs/标页面_投资失败提示框 - 提示信息获取_2019-06-20 17_40_43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/screenshots/登陆页面_页面中间错误信息_2019-06-18 21_39_40.png" beforeDir="false" afterPath="$PROJECT_DIR$/output/imgs/登陆页面_页面中间错误信息_2019-06-18 21_39_40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_locators/bidPage_locator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_locators/indexPage_locator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_locators/login_page_locator.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_locators/login_page_locator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_locators/userPage_locator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/bid_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/common_business/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/index_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/index_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/model_c/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/user_page.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/model_a/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/model_a/conftest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test_0_login.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test_invest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test_params.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-08-18 2107.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +73,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_params.py">
-    <configuration name="main_pytest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/util" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/test_cases" />
+      <recent name="$PROJECT_DIR$/page_objects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.mac_qq_upload">
+    <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_pytest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/baidu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -101,73 +109,97 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_0_login.TestLogin.test_login_0_failed_by_wrong_data" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="js_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_0_login.TestLogin.test_login_0_failed_by_wrong_data&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/js_operation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_0_login.TestLogin.test_my_fix1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_0_login.TestLogin.test_my_fix1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/logger.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_invest.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="mac_qq_upload" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test_invest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/mac_qq_upload.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_params.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="scroll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test_params.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/scroll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in test_params.py" />
-        <item itemvalue="Python tests.pytest in test_invest.py" />
-        <item itemvalue="Python.main_pytest" />
-        <item itemvalue="Python tests.pytest for test_0_login.TestLogin.test_my_fix1" />
-        <item itemvalue="Python tests.pytest for test_0_login.TestLogin.test_login_0_failed_by_wrong_data" />
+        <item itemvalue="Python.mac_qq_upload" />
+        <item itemvalue="Python.logger" />
+        <item itemvalue="Python.js_operation" />
+        <item itemvalue="Python.baidu" />
+        <item itemvalue="Python.scroll" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566744054557</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="version 2020030501">
+      <created>1583411222583</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583411222583</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -317,6 +356,7 @@
     </history-entry>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="version 20190812" />
     <MESSAGE value="version 20190813" />
     <MESSAGE value="version 20190819" />
@@ -325,17 +365,78 @@
     <MESSAGE value="version 20190822" />
     <MESSAGE value="version 20190823" />
     <MESSAGE value="version 20190825" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 20190825" />
+    <MESSAGE value="version 2020030501" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2020030501" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583411057317">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.977@0.23.1920.977" timestamp="1583411057317" />
-    <state x="469" y="150" key="SettingsEditor" timestamp="1583410875840">
+    <state x="485" y="112" key="CommitChangelistDialog2" timestamp="1583411222187">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="469" y="150" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1583410875840" />
+    <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1583411222187" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom" timestamp="1583434374111">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1583434374111" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1583431813508" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1583431990078" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1583432485703" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.984@0.23.1920.984" timestamp="1583432532042" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.986@0.23.1920.986" timestamp="1583432574792" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.988@0.23.1920.988" timestamp="1583433357143" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1583433788327" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1583433970217" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center" timestamp="1583434374110">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1583434374110" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1583431813507" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1583431990077" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1583432485702" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.984@0.23.1920.984" timestamp="1583432532040" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.986@0.23.1920.986" timestamp="1583432574791" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.988@0.23.1920.988" timestamp="1583433357142" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1583433788326" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1583433970215" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left" timestamp="1583434374109">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1583434374109" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1583431813506" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1583431990077" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1583432485701" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.984@0.23.1920.984" timestamp="1583432532039" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.986@0.23.1920.986" timestamp="1583432574790" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.988@0.23.1920.988" timestamp="1583433357141" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1583433788325" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1583433970215" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right" timestamp="1583434374110">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1583434374110" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1583431813507" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1583431990078" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1583432485702" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.984@0.23.1920.984" timestamp="1583432532041" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.986@0.23.1920.986" timestamp="1583432574792" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.988@0.23.1920.988" timestamp="1583433357142" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1583433788326" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1583433970216" />
+    <state x="396" y="214" key="SettingsEditor" timestamp="1583420829161">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="396" y="214" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1583420829161" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583411228240">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1583411228240" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1583411739960">
+      <screen x="0" y="23" width="1920" height="977" />
+    </state>
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1583411739960" />
   </component>
   <component name="masterDetails">
     <states>

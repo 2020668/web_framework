@@ -126,7 +126,7 @@ class BasePage(object):
             self.save_img(img_desc)
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
 
-    # 双击元素
+    # 清除文本
     def clean_element_text(self, loc, img_desc):
         ele = self.driver.find_element(*loc)
         # 操作
@@ -140,6 +140,7 @@ class BasePage(object):
             self.save_img(img_desc)
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
 
+    # 输入文本
     def input_text(self, loc, value, img_desc, timeout=30, frequency=0.5):
         ele = self._deal_element(loc, img_desc, timeout, frequency)
         # 操作
@@ -183,11 +184,27 @@ class BasePage(object):
             raise  # 抛出异常，让用例识别到异常将用例状态为失败。
         time.sleep(1)
 
-    def scroll_down(self, img_desc):
+    # 滑动到页面底部
+    def scroll_to_page_down(self, img_desc):
         # ele = self._deal_element(loc, img_desc, timeout, frequency)
         # 操作
         try:
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight); ")
+            logging.info("滑动到  {} 元素 成功！".format(img_desc))
+        except:
+            # 日志
+            logging.exception("滑动到  {} 元素 失败！".format(img_desc))
+            # 截图
+            self.save_img(img_desc)
+            raise  # 抛出异常，让用例识别到异常将用例状态为失败。
+        time.sleep(1)
+
+    # 使用js滑动
+    def scroll_up(self, img_desc):
+        # ele = self._deal_element(loc, img_desc, timeout, frequency)
+        # 操作
+        try:
+            self.driver.execute_script("window.scrollTo(document.body.scrollHeight, 0); ")
             logging.info("滑动到  {} 元素 成功！".format(img_desc))
         except:
             # 日志
@@ -280,77 +297,6 @@ class BasePage(object):
             return size
         except:
             logging.exception("获取设备大小失败。")
-            raise
-
-    # 左右滑
-    def swipe_left_right(self, start_percent=0.9, end_percent=0.1):
-        size = self.get_device_size()
-        try:
-            logging.info("页面左右滑动，页面从坐标：{} 滑动到坐标：{}".format(size["width"] * start_percent, size["width"] * end_percent))
-            self.driver.swipe(size["width"] * start_percent, size["height"] * 0.5, size["width"] * end_percent,
-                              size["height"] * 0.5, 200)
-            time.sleep(1)
-        except:
-            logging.exception("页面左右滑动失败！！")
-            self.save_img("页面左右滑动失败")
-            raise
-
-    # 上下滑
-    def swipe_up_down(self, start_percent=0.9, end_percent=0.1):
-        size = self.get_device_size()
-        try:
-            self.driver.swipe(size["width"] * 0.5, size["height"] * start_percent, size["width"] * 0.5,
-                              size["height"] * end_percent, 200)
-            logging.info(
-                "页面上下滑动，页面从坐标：{} 滑动到坐标：{}".format(size["height"] * start_percent, size["height"] * end_percent))
-            time.sleep(1)
-        except:
-            logging.exception("页面上下滑动失败！！")
-            self.save_img("页面上下滑动失败")
-            raise
-
-    # 自定义滑动
-    def swipe_diy(self, start_width, start_height, end_width, end_height):
-        size = self.get_device_size()
-        try:
-            self.driver.swipe(size["width"] * start_width, size["height"] * start_height, size["width"] * end_width,
-                              size["height"] * end_height, 1000)
-            logging.info(
-                "页面上下滑动，页面从坐标：{} 滑动到坐标：{}".format(size["height"] * start_height, size["height"] * end_height))
-            time.sleep(1)
-        except:
-            logging.exception("页面上下滑动失败！！")
-            self.save_img("页面上下滑动失败")
-            raise
-
-    # 上下左右滑动 up down left right
-    def swipe_by_direction(self, direct, duration=200):
-        """
-        :param direct: up - 向上滑 down - 向下滑  left - 向左滑  right - 向右滑
-        :return: None
-        """
-        size = self.get_device_size()
-        if direct.lower() == "up":  # 向上滑动
-            self.driver.swipe(size["width"] * 0.5, size["height"] * 0.9, size["width"] * 0.5, size["height"] * 0.1,
-                              duration)
-        elif direct.lower() == "down":  # 向下滑动
-            self.driver.swipe(size["width"] * 0.5, size["height"] * 0.1, size["width"] * 0.5, size["height"] * 0.9,
-                              duration)
-        elif direct.lower() == "left":  # 向左滑动
-            self.driver.swipe(size["width"] * 0.9, size["height"] * 0.5, size["width"] * 0.1, size["height"] * 0.5,
-                              duration)
-        elif direct.lower() == "right":  # 向右滑动
-            self.driver.swipe(size["width"] * 0.1, size["height"] * 0.5, size["width"] * 0.9, size["height"] * 0.5,
-                              duration)
-
-    # 获取当前页面源码
-    def get_page_source(self):
-        logging.info("获取当前页面源码。")
-        try:
-            return self.driver.page_source
-        except:
-            logging.exception("获取页面源码失败！")
-            self.save_img("获取页面源码失败")
             raise
 
 # class BasePage(object):
