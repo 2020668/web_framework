@@ -2,7 +2,7 @@
 """
 =================================
 Author: keen
-Created on: 2019/8/12
+Created on: 2019/10/18
 E-mail:keen2020@outlook.com
 =================================
 
@@ -15,7 +15,7 @@ import time
 from common import dir_config
 
 fmt = " %(asctime)s  %(levelname)s %(filename)s %(funcName)s [ line:%(lineno)d ] %(message)s"
-date_fmt = '%a, %d %b %Y %H:%M:%S'
+datefmt = '%a, %d %b %Y %H:%M:%S'
 
 handler_1 = logging.StreamHandler()
 
@@ -25,6 +25,7 @@ handler_2 = RotatingFileHandler(dir_config.logs_dir + "/Web_Autotest_{0}.log".fo
                                 encoding='utf-8')
 
 # 设置rootlogger 的输出内容形式，输出渠道
-logging.basicConfig(format=fmt, datefmt=date_fmt, level=logging.INFO, handlers=[handler_1, handler_2])
+logging.basicConfig(format=fmt, datefmt=datefmt, level=logging.INFO, handlers=[handler_1, handler_2])
 
-logging.info("hehehe")
+if __name__ == '__main__':
+    logging.info("hehehe")

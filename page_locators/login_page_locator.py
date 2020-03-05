@@ -2,7 +2,7 @@
 """
 =================================
 Author: keen
-Created on: 2019/8/12
+Created on: 2019/10/18
 E-mail:keen2020@outlook.com
 =================================
 
@@ -11,15 +11,21 @@ E-mail:keen2020@outlook.com
 from selenium.webdriver.common.by import By
 
 
-class LoginPageLocator:
+class LoginPageLocator(object):
 
     # 用户名输入框
-    user_loc = (By.XPATH, '//input[@name="phone"]')
+    user_loc = By.XPATH, "//input[@type='text']"
+
     # 密码输入框
-    pwd_loc = (By.XPATH, '//input[@name="password"]')
-    # w登陆按钮
-    login_button_loc = (By.TAG_NAME, "button")
-    # 提示框 - 登陆表单区域
-    error_notify_from_login_form = (By.XPATH, '//div[@class="form-error-info"]')
-    # 提示框 - 页面中间区域
-    error_notify_from_page_center = (By.XPATH, '//div[@class="layui-layer-content"]')
+    pwd_loc = By.XPATH, "//input[@type='password']"
+
+    # 登录按钮
+    # login_button_loc = By.XPATH, "//button[@class='ivu-btn ivu-btn-primary']"
+    login_button_loc = By.XPATH, "//span"
+
+    # 表单错误提示
+    form_error_loc = By.XPATH, "//div[@class='ivu-form-item-error-tip']"
+
+    # 登录成功的提示
+    # login_info_loc = By.XPATH, "//div[@class='ivu-message-notice-content-text']"
+    login_info_loc = By.XPATH, "//div[@class='ivu-message-notice-content']"

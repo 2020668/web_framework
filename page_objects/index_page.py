@@ -2,30 +2,28 @@
 """
 =================================
 Author: keen
-Created on: 2019/8/12
+Created on: 2019/10/18
 E-mail:keen2020@outlook.com
 =================================
 
 """
 
-from common.base_page import BasePage
-from page_locators.indexPage_locator import IndexPageLocator as loc
-import time
+
+from page_locators.index_page_locator import IndexPageLocator as Loc
+
+
+from common.basepage import BasePage
 
 
 class IndexPage(BasePage):
 
-    # 检测昵称是否存在
-    def check_nick_name_exists(self):
-        """
-        :return: 存在返回True,不存在返回False
-        """
-        try:
-            self.wait_element_visible(loc.user_link, "首页_找用户昵称元素", timeout=10)
-            return True
-        except:
-            return False
+    def click_open_account(self):
 
-    # 点击投标按钮
-    def click_invest_button(self):
-        self.click_element(loc.bid_button, "首页_点击第一个抢投标按钮")
+        self.wait_ele_visible(loc=Loc.open_account_button, img_desc="首页_开户进件按钮")
+        self.click_element(loc=Loc.open_account_button, img_desc="首页_开户进件按钮")
+
+    def get_user_name(self):
+
+        self.wait_ele_visible(loc=Loc.user_name_loc, img_desc="首页_用户名")
+        text = self.get_text(loc=Loc.user_name_loc, img_desc="首页_用户名")
+        return text
