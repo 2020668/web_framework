@@ -79,8 +79,9 @@ def qq1():
 
     time.sleep(3)
 
-    # 切换iframe
-    driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
+    # 切换iframe 此页面可使用iframe名字切换
+    # driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
+    driver.switch_to.frame("app_canvas_frame")
 
     time.sleep(3)
 
@@ -92,15 +93,10 @@ def qq1():
 
     time.sleep(3)
 
-    # driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[1])
-
     # 退出iframe
     driver.switch_to.default_content()
 
     time.sleep(3)
-
-    # driver.switch_to.frame("userData_iframe__Y_popTips")
-    # time.sleep(3)
 
     driver.switch_to.frame("photoUploadDialog")
 
@@ -144,7 +140,7 @@ def qq2():
 
     time.sleep(3)
 
-    # 切换iframe
+    # 切换iframe 此时页面该元素的iframe没有name 但是第一个iframe 所以使用下标
     driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[0])
 
     time.sleep(3)
@@ -157,15 +153,10 @@ def qq2():
 
     time.sleep(3)
 
-    # driver.switch_to.frame(driver.find_elements_by_tag_name("iframe")[1])
-
     # 退出iframe
     driver.switch_to.default_content()
 
     time.sleep(3)
-
-    # driver.switch_to.frame("userData_iframe__Y_popTips")
-    # time.sleep(3)
 
     driver.switch_to.frame("photoUploadDialog")
 
@@ -182,6 +173,7 @@ def qq2():
 
     upload_mac(os.path.join(testdatas_dir, "demo.png"))
 
+    # 点击上传照片按钮
     loc = By.XPATH, "//a[@class='op-btn btn-upload j-btn-start j-uploading-hide']"
     WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
     driver.find_element(*loc).click()
@@ -192,4 +184,7 @@ def qq2():
 
 
 if __name__ == '__main__':
-    qq1()
+    # qq1()
+    a = '{"name": "keen"}'
+    print(dict(a))
+    print(type(dict(a)))

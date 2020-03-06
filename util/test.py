@@ -11,6 +11,14 @@ E-mail:keen2020@outlook.com
 
 import datetime
 import time
+import os
 
 time = time.strftime("%Y%m%d%H%M%S")
-print(time)
+# print(time)
+
+
+from common.dir_config import testdatas_dir
+
+names = os.path.dirname(testdatas_dir)
+
+print(names)

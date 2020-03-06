@@ -17,24 +17,55 @@ from selenium.webdriver.support import expected_conditions as ec
 import time
 
 
-# 打开浏览器，访问网址
-driver = webdriver.Chrome()
-driver.maximize_window()
+def baidu():
+    # 打开浏览器，访问网址
+    driver = webdriver.Chrome()
+    driver.maximize_window()
 
-driver.get("https://www.baidu.com")
+    driver.get("https://www.baidu.com")
 
-size = driver.get_window_size()
-print(size)
+    size = driver.get_window_size()
+    print(size)
 
-loc = By.XPATH, "//input[@id='kw']"
-WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-driver.find_element(*loc).send_keys("Python", Keys.ENTER)
+    loc = By.XPATH, "//input[@id='kw']"
+    WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+    driver.find_element(*loc).send_keys("Python", Keys.ENTER)
 
-# loc = By.XPATH, "//input[@id='su']"
-# WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
-# driver.find_element(*loc).click()
+    # loc = By.XPATH, "//input[@id='su']"
+    # WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+    # driver.find_element(*loc).click()
 
 
-time.sleep(8)
+    time.sleep(8)
 
-driver.quit()
+    driver.quit()
+
+
+def baidu1():
+    # 打开浏览器，访问网址
+    driver = webdriver.Chrome()
+    driver.maximize_window()
+
+    driver.get("https://www.baidu.com")
+
+    size = driver.get_window_size()
+    print(size)
+
+    driver.find_element_by_id("kw").send_keys("Python", Keys.ENTER)
+
+    # loc = By.XPATH, "//input[@id='kw']"
+    # WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+    # driver.find_element(*loc).send_keys("Python", Keys.ENTER)
+
+    # loc = By.XPATH, "//input[@id='su']"
+    # WebDriverWait(driver, 20).until(ec.visibility_of_element_located(loc))
+    # driver.find_element(*loc).click()
+
+    time.sleep(8)
+
+    driver.quit()
+
+
+if __name__ == '__main__':
+    baidu1()
+

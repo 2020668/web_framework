@@ -22,4 +22,8 @@ htmlreport_dir = os.path.join(base_dir, "output/reports")
 logs_dir = os.path.join(base_dir, "output/logs")
 
 screenshot_dir = os.path.join(base_dir, "output/imgs")
-print(screenshot_dir)
+
+
+if __name__ == '__main__':
+
+    print(screenshot_dir)

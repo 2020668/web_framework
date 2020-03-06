@@ -72,6 +72,8 @@ def upload_mac(file_path):
     time.sleep(2)
     k.press_key('Return')
     time.sleep(2)
+    k.press_key('Return')
+    time.sleep(2)
 
 
 # 输入地址,自动获取省市区

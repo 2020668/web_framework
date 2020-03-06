@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="333d5df9-7361-4c2f-b6ae-1f99a47e5e8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1028.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1029.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1030.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1034.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1036.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1040.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/alert_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/windows_change.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/dir_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dir_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0252.log" beforeDir="false" afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1608.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1028.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1029.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1030.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1034.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1036.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1040.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1043.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/baidu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/mac_qq_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/mac_qq_upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -26,12 +36,6 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1750" />
-    <option name="height" value="980" />
   </component>
   <component name="ProjectId" id="1Yi1yB1N1ffboQ2y61v8oewrsLB" />
   <component name="ProjectLevelVcsManager">
@@ -44,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -57,7 +62,28 @@
       <recent name="$PROJECT_DIR$/page_objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mac_qq_upload">
+  <component name="RunManager" selected="Python.alert_change">
+    <configuration name="alert_change" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="web_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/alert_change.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,28 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="js_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="web_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/js_operation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dir_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -112,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/logger.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/dir_config.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -121,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mac_qq_upload" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,7 +138,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/mac_qq_upload.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scroll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="windows_change" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/scroll.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/windows_change.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mac_qq_upload" />
-        <item itemvalue="Python.logger" />
-        <item itemvalue="Python.js_operation" />
+        <item itemvalue="Python.alert_change" />
+        <item itemvalue="Python.dir_config" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.windows_change" />
         <item itemvalue="Python.baidu" />
-        <item itemvalue="Python.scroll" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583434458290</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="version 2020030602">
+      <created>1583462816591</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583462816591</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -344,62 +356,63 @@
     <MESSAGE value="version 20190825" />
     <MESSAGE value="version 2020030501" />
     <MESSAGE value="version 2020030601" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2020030601" />
+    <MESSAGE value="version 2020030602" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2020030602" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583411057317">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.977@0.23.1920.977" timestamp="1583411057317" />
-    <state x="485" y="112" key="CommitChangelistDialog2" timestamp="1583434458018">
+    <state x="485" y="112" key="CommitChangelistDialog2" timestamp="1583462816332">
       <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1583411222187" />
-    <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1583434458018" />
-    <state width="1899" height="191" key="GridCell.Tab.0.bottom" timestamp="1583462624232">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1583462816332" />
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom" timestamp="1583513266690">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1899" height="191" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1583462624232" />
-    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1583462077460" />
-    <state width="1899" height="165" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1583462203971" />
-    <state width="1899" height="191" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1583462454747" />
-    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.984@0.23.1920.984" timestamp="1583432532042" />
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1583512695405" />
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1583513266690" />
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1583512504299" />
+    <state width="1899" height="227" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1583511797617" />
+    <state width="1899" height="191" key="GridCell.Tab.0.bottom/0.23.1920.984@0.23.1920.984" timestamp="1583465036475" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.986@0.23.1920.986" timestamp="1583432574792" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.988@0.23.1920.988" timestamp="1583433357143" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1583433788327" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1583433970217" />
-    <state width="1899" height="191" key="GridCell.Tab.0.center" timestamp="1583462624230">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center" timestamp="1583513266689">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1899" height="191" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1583462624230" />
-    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1583462077459" />
-    <state width="1899" height="165" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1583462203970" />
-    <state width="1899" height="191" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1583462454746" />
-    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.984@0.23.1920.984" timestamp="1583432532040" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1583512695404" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1583513266689" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1583512504298" />
+    <state width="1899" height="227" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1583511797617" />
+    <state width="1899" height="191" key="GridCell.Tab.0.center/0.23.1920.984@0.23.1920.984" timestamp="1583465036474" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.986@0.23.1920.986" timestamp="1583432574791" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.988@0.23.1920.988" timestamp="1583433357142" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1583433788326" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1583433970215" />
-    <state width="1899" height="191" key="GridCell.Tab.0.left" timestamp="1583462624229">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left" timestamp="1583513266688">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1899" height="191" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1583462624229" />
-    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1583462077458" />
-    <state width="1899" height="165" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1583462203969" />
-    <state width="1899" height="191" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1583462454746" />
-    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.984@0.23.1920.984" timestamp="1583432532039" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1583512695403" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1583513266688" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1583512504297" />
+    <state width="1899" height="227" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1583511797616" />
+    <state width="1899" height="191" key="GridCell.Tab.0.left/0.23.1920.984@0.23.1920.984" timestamp="1583465036473" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.986@0.23.1920.986" timestamp="1583432574790" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.988@0.23.1920.988" timestamp="1583433357141" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1583433788325" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1583433970215" />
-    <state width="1899" height="191" key="GridCell.Tab.0.right" timestamp="1583462624231">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right" timestamp="1583513266689">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
-    <state width="1899" height="191" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1583462624231" />
-    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1583462077459" />
-    <state width="1899" height="165" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1583462203970" />
-    <state width="1899" height="191" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1583462454747" />
-    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.984@0.23.1920.984" timestamp="1583432532041" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1583512695405" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1583513266689" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1583512504298" />
+    <state width="1899" height="227" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1583511797617" />
+    <state width="1899" height="191" key="GridCell.Tab.0.right/0.23.1920.984@0.23.1920.984" timestamp="1583465036474" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.986@0.23.1920.986" timestamp="1583432574792" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.988@0.23.1920.988" timestamp="1583433357142" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1583433788326" />
@@ -408,11 +421,11 @@
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="396" y="214" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1583434534017" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583434500798">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583462823420">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1583434500798" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1583434473597" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1583462823420" />
     <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1583434558357">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
