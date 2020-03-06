@@ -2,44 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="333d5df9-7361-4c2f-b6ae-1f99a47e5e8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/demo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0054.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0101.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0102.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0103.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0105.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0117.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0120.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0121.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0123.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0126.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0130.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0136.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0138.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0140.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0141.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0142.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0144.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0145.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0147.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0210.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0213.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0221.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0222.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0236.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0243.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0246.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0249.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/baidu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/js_operation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/mac_qq_upload.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/scroll.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/upload_operation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1028.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1029.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1030.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1034.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1036.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1040.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/basepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/basepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/dir_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dir_config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2019-08-18 2107.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/mac_qq_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/mac_qq_upload.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,8 +45,8 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -338,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583411222583</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="version 2020030601">
+      <created>1583434458290</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583434458290</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -366,77 +343,80 @@
     <MESSAGE value="version 20190823" />
     <MESSAGE value="version 20190825" />
     <MESSAGE value="version 2020030501" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2020030501" />
+    <MESSAGE value="version 2020030601" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2020030601" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583411057317">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.977@0.23.1920.977" timestamp="1583411057317" />
-    <state x="485" y="112" key="CommitChangelistDialog2" timestamp="1583411222187">
-      <screen x="0" y="23" width="1920" height="977" />
+    <state x="485" y="112" key="CommitChangelistDialog2" timestamp="1583434458018">
+      <screen x="0" y="23" width="1920" height="978" />
     </state>
     <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1583411222187" />
-    <state width="1899" height="204" key="GridCell.Tab.0.bottom" timestamp="1583434374111">
+    <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1583434458018" />
+    <state width="1899" height="191" key="GridCell.Tab.0.bottom" timestamp="1583462624232">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1583434374111" />
-    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1583431813508" />
-    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1583431990078" />
-    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1583432485703" />
+    <state width="1899" height="191" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1583462624232" />
+    <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1583462077460" />
+    <state width="1899" height="165" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1583462203971" />
+    <state width="1899" height="191" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1583462454747" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.984@0.23.1920.984" timestamp="1583432532042" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.986@0.23.1920.986" timestamp="1583432574792" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.988@0.23.1920.988" timestamp="1583433357143" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1583433788327" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1583433970217" />
-    <state width="1899" height="204" key="GridCell.Tab.0.center" timestamp="1583434374110">
+    <state width="1899" height="191" key="GridCell.Tab.0.center" timestamp="1583462624230">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1583434374110" />
-    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1583431813507" />
-    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1583431990077" />
-    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1583432485702" />
+    <state width="1899" height="191" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1583462624230" />
+    <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1583462077459" />
+    <state width="1899" height="165" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1583462203970" />
+    <state width="1899" height="191" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1583462454746" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.984@0.23.1920.984" timestamp="1583432532040" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.986@0.23.1920.986" timestamp="1583432574791" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.988@0.23.1920.988" timestamp="1583433357142" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1583433788326" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1583433970215" />
-    <state width="1899" height="204" key="GridCell.Tab.0.left" timestamp="1583434374109">
+    <state width="1899" height="191" key="GridCell.Tab.0.left" timestamp="1583462624229">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1583434374109" />
-    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1583431813506" />
-    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1583431990077" />
-    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1583432485701" />
+    <state width="1899" height="191" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1583462624229" />
+    <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1583462077458" />
+    <state width="1899" height="165" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1583462203969" />
+    <state width="1899" height="191" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1583462454746" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.984@0.23.1920.984" timestamp="1583432532039" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.986@0.23.1920.986" timestamp="1583432574790" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.988@0.23.1920.988" timestamp="1583433357141" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1583433788325" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1583433970215" />
-    <state width="1899" height="204" key="GridCell.Tab.0.right" timestamp="1583434374110">
+    <state width="1899" height="191" key="GridCell.Tab.0.right" timestamp="1583462624231">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1583434374110" />
-    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1583431813507" />
-    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1583431990078" />
-    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1583432485702" />
+    <state width="1899" height="191" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1583462624231" />
+    <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1583462077459" />
+    <state width="1899" height="165" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1583462203970" />
+    <state width="1899" height="191" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1583462454747" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.984@0.23.1920.984" timestamp="1583432532041" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.986@0.23.1920.986" timestamp="1583432574792" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.988@0.23.1920.988" timestamp="1583433357142" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1583433788326" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1583433970216" />
-    <state x="396" y="214" key="SettingsEditor" timestamp="1583420829161">
+    <state x="396" y="214" key="SettingsEditor" timestamp="1583434534017">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="396" y="214" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1583420829161" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583411228240">
+    <state x="396" y="214" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1583434534017" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583434500798">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1583411228240" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1583411739960">
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1583434500798" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1583434473597" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1583434558357">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1583411739960" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1583434558357" />
   </component>
   <component name="masterDetails">
     <states>
