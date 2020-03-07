@@ -69,6 +69,26 @@ def qq1():
 
     time.sleep(3)
 
+    # # 拖动滑动块
+    # # 获取滑动条的size
+    # loc = By.XPATH, "//div[@id='slide']"
+    # WebDriverWait(driver, 20).until(ec.presence_of_element_located(loc))
+    # span_background_size = driver.find_element(*loc).size
+    # print(span_background_size)
+    #
+    # # 获取滑块的位置
+    # loc = By.XPATH, "//div[@id='tcaptcha_drag_thumb']"
+    # WebDriverWait(driver, 20).until(ec.presence_of_element_located(loc))
+    # button_ele = driver.find_element(*loc)
+    # button_location = button_ele.location
+    # print(button_location)
+    #
+    # # 拖动操作：drag_and_drop_by_offset
+    # # 将滑块的位置由初始位置，右移一个滑动条长度（即为x坐标在滑块位置基础上，加上滑动条的长度，y坐标保持滑块的坐标位置）
+    # x_location = button_location["x"] + span_background_size["width"] -28
+    # y_location = button_location["y"]
+    # ActionChains(driver).drag_and_drop_by_offset(button_ele, x_location, y_location).perform()
+
     # iframe切回到主页
     driver.switch_to.default_content()
 
@@ -184,7 +204,4 @@ def qq2():
 
 
 if __name__ == '__main__':
-    # qq1()
-    a = '{"name": "keen"}'
-    print(dict(a))
-    print(type(dict(a)))
+    qq1()

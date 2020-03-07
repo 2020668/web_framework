@@ -13,10 +13,10 @@ E-mail:keen2020@outlook.com
 """
 
 
-import time
 # import win32gui
 # import win32con
 import cpca
+import time
 import pyperclip
 from pykeyboard import PyKeyboard
 from pymouse import PyMouse
@@ -26,31 +26,32 @@ import logging
 from common import logger
 
 
-# windows下上传文件 mac无法运行 请注释掉
-# def upload_win(file_path, browser_type="chrome"):
-#     time.sleep(1)
-#     if browser_type == "chrome":
-#         title = "打开"
-#     else:
-#         title = ""
-#
-#     # 找元素
-#     # 一级窗口 "#32770", "打开"
-#     dialog = win32gui.FindWindow("#32770", title)
-#     ComboBoxEx32 = win32gui.FindWindowEx(dialog, 0, "ComboBoxEx32", None)    # 二级窗口,0代表从第一个开始找,后面是class和title
-#     ComboBox = win32gui.FindWindowEx(ComboBoxEx32, 0, "ComboBox", None)    # 三级窗口
-#     # 编辑按钮
-#     edit = win32gui.FindWindowEx(ComboBox, 0, "Edit", None)       # 四级窗口
-#     # 打开按钮
-#     button = win32gui.FindWindowEx(dialog, 0, "Button", "打开(&0)")
-#
-#     # 往编辑当中输入文件路径
-#     win32gui.SendMessage(edit, win32con.WM_SETTEXT, None, file_path)     # 发送文件路径
-#     win32gui.SendMessage(dialog, win32con.WM_COMMAND, 1, button)      # 点击打开按钮
-#
-#     logging.info("上传图片 {} 成功".format(file_path))
+# windows下上传文件
+def upload_win(file_path, browser_type="chrome"):
+    time.sleep(1)
+    if browser_type == "chrome":
+        title = "打开"
+    else:
+        title = ""
+
+    # 找元素
+    # 一级窗口 "#32770", "打开"
+    dialog = win32gui.FindWindow("#32770", title)
+    ComboBoxEx32 = win32gui.FindWindowEx(dialog, 0, "ComboBoxEx32", None)    # 二级窗口,0代表从第一个开始找,后面是class和title
+    ComboBox = win32gui.FindWindowEx(ComboBoxEx32, 0, "ComboBox", None)    # 三级窗口
+    # 编辑按钮
+    edit = win32gui.FindWindowEx(ComboBox, 0, "Edit", None)       # 四级窗口
+    # 打开按钮
+    button = win32gui.FindWindowEx(dialog, 0, "Button", "打开(&0)")
+
+    # 往编辑当中输入文件路径
+    win32gui.SendMessage(edit, win32con.WM_SETTEXT, None, file_path)     # 发送文件路径
+    win32gui.SendMessage(dialog, win32con.WM_COMMAND, 1, button)      # 点击打开按钮
+
+    logging.info("上传图片 {} 成功".format(file_path))
 
 
+# mac上传文件
 def upload_mac(file_path):
 
     k = PyKeyboard()
@@ -66,14 +67,18 @@ def upload_mac(file_path):
     # 粘贴斜杠/
     k.press_keys(['Command', 'V'])
     time.sleep(2)
+
     # 输入文件全路径进去
     k.type_string(file_path)
+    # 按Enter键
     k.press_key('Return')
     time.sleep(2)
     k.press_key('Return')
     time.sleep(2)
+    # 如果处于中文输入法下 输入路径后是有一个提示 需要按Enter才会输入 会消耗掉1个Enter 故增加1个Enter 容错
     k.press_key('Return')
     time.sleep(2)
+    logging.info("上传图片: {}成功！".format(file_path))
 
 
 # 输入地址,自动获取省市区

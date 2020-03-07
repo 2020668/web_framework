@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="333d5df9-7361-4c2f-b6ae-1f99a47e5e8d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/util/alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/alert_change.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/windows_change.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-07 2020.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-07 2307.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-07 2308.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-07 2348.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-07 2349.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-07 2350.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-07 2356.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/drop_to_taobao.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/mouse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/dir_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/dir_config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/tools.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/tools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 0252.log" beforeDir="false" afterPath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1608.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1028.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1029.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1030.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1034.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1036.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1040.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/logs/Web_Autotest_2020-03-06 1043.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/baidu.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/baidu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/alert_change.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/alert_change.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/js_operation.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/js_operation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/mac_qq_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/mac_qq_upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/scroll.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -62,8 +60,8 @@
       <recent name="$PROJECT_DIR$/page_objects" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.alert_change">
-    <configuration name="alert_change" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.mac_qq_upload">
+    <configuration name="drop_to_taobao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/alert_change.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/drop_to_taobao.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -84,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baidu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="js_operation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/baidu.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/js_operation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,28 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dir_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="web_framework" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/common/dir_config.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mac_qq_upload" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/mac_qq_upload.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="windows_change" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="mouse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="web_framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,22 +136,37 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/windows_change.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/mouse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for js_operation.test_12306" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="web_framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;js_operation.test_12306&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.alert_change" />
-        <item itemvalue="Python.dir_config" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.windows_change" />
-        <item itemvalue="Python.baidu" />
+        <item itemvalue="Python.mac_qq_upload" />
+        <item itemvalue="Python.drop_to_taobao" />
+        <item itemvalue="Python.mouse" />
+        <item itemvalue="Python.js_operation" />
+        <item itemvalue="Python tests.pytest for js_operation.test_12306" />
       </list>
     </recent_temporary>
   </component>
@@ -327,22 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1583462816591</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="version 2020030702">
+      <created>1583513474977</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583513474977</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="pytest_for_test_0_login_TestLogin_test_login_0_failed_by_wrong_data - 2019.08.23 at 08h 42m 16s.xml">
-      <configuration name="pytest for test_0_login.TestLogin.test_login_0_failed_by_wrong_data" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_0_login_TestLogin_test_my_fix1 - 2019.08.23 at 08h 46m 35s.xml">
-      <configuration name="pytest for test_0_login.TestLogin.test_my_fix1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_invest_py - 2019.08.23 at 13h 15m 34s.xml">
-      <configuration name="pytest in test_invest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_params_py - 2019.08.23 at 13h 16m 39s.xml">
-      <configuration name="pytest in test_params.py" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -357,79 +342,96 @@
     <MESSAGE value="version 2020030501" />
     <MESSAGE value="version 2020030601" />
     <MESSAGE value="version 2020030602" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2020030602" />
+    <MESSAGE value="version 2020030702" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 2020030702" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583411057317">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
     <state x="698" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.977@0.23.1920.977" timestamp="1583411057317" />
-    <state x="485" y="112" key="CommitChangelistDialog2" timestamp="1583462816332">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="485" y="112" key="CommitChangelistDialog2" timestamp="1583513474712">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1583411222187" />
+    <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.977@0.23.1920.977" timestamp="1583513474712" />
     <state x="485" y="112" key="CommitChangelistDialog2/0.23.1920.978@0.23.1920.978" timestamp="1583462816332" />
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom" timestamp="1583513266690">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom" timestamp="1583597307897">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1583512695405" />
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1583513266690" />
-    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1583512504299" />
-    <state width="1899" height="227" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1583511797617" />
-    <state width="1899" height="191" key="GridCell.Tab.0.bottom/0.23.1920.984@0.23.1920.984" timestamp="1583465036475" />
+    <state width="1899" height="250" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1583596233087" />
+    <state width="1899" height="176" key="GridCell.Tab.0.bottom/0.23.1920.978@0.23.1920.978" timestamp="1583596592795" />
+    <state width="1899" height="209" key="GridCell.Tab.0.bottom/0.23.1920.980@0.23.1920.980" timestamp="1583596982119" />
+    <state width="1899" height="325" key="GridCell.Tab.0.bottom/0.23.1920.982@0.23.1920.982" timestamp="1583597009592" />
+    <state width="1899" height="195" key="GridCell.Tab.0.bottom/0.23.1920.984@0.23.1920.984" timestamp="1583597307897" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.986@0.23.1920.986" timestamp="1583432574792" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.988@0.23.1920.988" timestamp="1583433357143" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1583433788327" />
     <state width="1899" height="204" key="GridCell.Tab.0.bottom/0.23.1920.991@0.23.1920.991" timestamp="1583433970217" />
-    <state width="1899" height="195" key="GridCell.Tab.0.center" timestamp="1583513266689">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center" timestamp="1583597307896">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1583512695404" />
-    <state width="1899" height="195" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1583513266689" />
-    <state width="1899" height="195" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1583512504298" />
-    <state width="1899" height="227" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1583511797617" />
-    <state width="1899" height="191" key="GridCell.Tab.0.center/0.23.1920.984@0.23.1920.984" timestamp="1583465036474" />
+    <state width="1899" height="250" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1583596233086" />
+    <state width="1899" height="176" key="GridCell.Tab.0.center/0.23.1920.978@0.23.1920.978" timestamp="1583596592794" />
+    <state width="1899" height="209" key="GridCell.Tab.0.center/0.23.1920.980@0.23.1920.980" timestamp="1583596982118" />
+    <state width="1899" height="325" key="GridCell.Tab.0.center/0.23.1920.982@0.23.1920.982" timestamp="1583597009591" />
+    <state width="1899" height="195" key="GridCell.Tab.0.center/0.23.1920.984@0.23.1920.984" timestamp="1583597307896" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.986@0.23.1920.986" timestamp="1583432574791" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.988@0.23.1920.988" timestamp="1583433357142" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1583433788326" />
     <state width="1899" height="204" key="GridCell.Tab.0.center/0.23.1920.991@0.23.1920.991" timestamp="1583433970215" />
-    <state width="1899" height="195" key="GridCell.Tab.0.left" timestamp="1583513266688">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left" timestamp="1583597307895">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1583512695403" />
-    <state width="1899" height="195" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1583513266688" />
-    <state width="1899" height="195" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1583512504297" />
-    <state width="1899" height="227" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1583511797616" />
-    <state width="1899" height="191" key="GridCell.Tab.0.left/0.23.1920.984@0.23.1920.984" timestamp="1583465036473" />
+    <state width="1899" height="250" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1583596233085" />
+    <state width="1899" height="176" key="GridCell.Tab.0.left/0.23.1920.978@0.23.1920.978" timestamp="1583596592794" />
+    <state width="1899" height="209" key="GridCell.Tab.0.left/0.23.1920.980@0.23.1920.980" timestamp="1583596982117" />
+    <state width="1899" height="325" key="GridCell.Tab.0.left/0.23.1920.982@0.23.1920.982" timestamp="1583597009591" />
+    <state width="1899" height="195" key="GridCell.Tab.0.left/0.23.1920.984@0.23.1920.984" timestamp="1583597307895" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.986@0.23.1920.986" timestamp="1583432574790" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.988@0.23.1920.988" timestamp="1583433357141" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1583433788325" />
     <state width="1899" height="204" key="GridCell.Tab.0.left/0.23.1920.991@0.23.1920.991" timestamp="1583433970215" />
-    <state width="1899" height="195" key="GridCell.Tab.0.right" timestamp="1583513266689">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right" timestamp="1583597307897">
+      <screen x="0" y="23" width="1920" height="984" />
     </state>
-    <state width="1899" height="195" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1583512695405" />
-    <state width="1899" height="195" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1583513266689" />
-    <state width="1899" height="195" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1583512504298" />
-    <state width="1899" height="227" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1583511797617" />
-    <state width="1899" height="191" key="GridCell.Tab.0.right/0.23.1920.984@0.23.1920.984" timestamp="1583465036474" />
+    <state width="1899" height="250" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1583596233086" />
+    <state width="1899" height="176" key="GridCell.Tab.0.right/0.23.1920.978@0.23.1920.978" timestamp="1583596592795" />
+    <state width="1899" height="209" key="GridCell.Tab.0.right/0.23.1920.980@0.23.1920.980" timestamp="1583596982118" />
+    <state width="1899" height="325" key="GridCell.Tab.0.right/0.23.1920.982@0.23.1920.982" timestamp="1583597009592" />
+    <state width="1899" height="195" key="GridCell.Tab.0.right/0.23.1920.984@0.23.1920.984" timestamp="1583597307897" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.986@0.23.1920.986" timestamp="1583432574792" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.988@0.23.1920.988" timestamp="1583433357142" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1583433788326" />
     <state width="1899" height="204" key="GridCell.Tab.0.right/0.23.1920.991@0.23.1920.991" timestamp="1583433970216" />
-    <state x="396" y="214" key="SettingsEditor" timestamp="1583434534017">
+    <state width="1899" height="325" key="GridCell.Tab.1.bottom" timestamp="1583597009595">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.1.bottom/0.23.1920.982@0.23.1920.982" timestamp="1583597009595" />
+    <state width="1899" height="325" key="GridCell.Tab.1.center" timestamp="1583597009594">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.1.center/0.23.1920.982@0.23.1920.982" timestamp="1583597009594" />
+    <state width="1899" height="325" key="GridCell.Tab.1.left" timestamp="1583597009593">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.1.left/0.23.1920.982@0.23.1920.982" timestamp="1583597009593" />
+    <state width="1899" height="325" key="GridCell.Tab.1.right" timestamp="1583597009595">
+      <screen x="0" y="23" width="1920" height="982" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.1.right/0.23.1920.982@0.23.1920.982" timestamp="1583597009595" />
+    <state x="396" y="214" key="SettingsEditor" timestamp="1583584083306">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="396" y="214" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1583434534017" />
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583462823420">
-      <screen x="0" y="23" width="1920" height="978" />
+    <state x="396" y="214" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1583584083306" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2" timestamp="1583513480226">
+      <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1583434500798" />
+    <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.977@0.23.1920.977" timestamp="1583513480226" />
     <state x="560" y="251" key="Vcs.Push.Dialog.v2/0.23.1920.978@0.23.1920.978" timestamp="1583462823420" />
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1583434558357">
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup" timestamp="1583583130474">
       <screen x="0" y="23" width="1920" height="977" />
     </state>
-    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1583434558357" />
+    <state x="625" y="238" width="670" height="676" key="search.everywhere.popup/0.23.1920.977@0.23.1920.977" timestamp="1583583130474" />
   </component>
   <component name="masterDetails">
     <states>

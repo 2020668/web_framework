@@ -53,7 +53,9 @@ alert = driver.switch_to.alert
 alert.accept()
 
 # 也可直接点击Enter 关闭弹窗
-# k.press_key('Return')
+k.press_key('Return')
+
+driver.find_element()
 
 time.sleep(5)
 
